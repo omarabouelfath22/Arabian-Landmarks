@@ -1820,7 +1820,7 @@ const landmarksData = {
             name: "Red Castle of Tripoli (Assai al-Hamra)",
             history: "A massive 13-hectare fortified palace complex built on the Tripoli coastline over ancient Roman foundations. It served as the seat of power for governors across Byzantine, Islamic, Spanish, Ottoman, and Italian eras.",
             location: "Downtown Tripoli (overlooking Martyrs' Square), Tripoli District, Libya.",
-            image: "images/red castle tripoli.jpg"
+            image: "images/Tripoli.jpg"
         },
         {
             name: "Gurgi Mosque",
