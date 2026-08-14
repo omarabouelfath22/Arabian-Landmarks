@@ -1,0 +1,1473 @@
+/*--restcss*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*----------*/
+
+
+#body {
+    background: linear-gradient(180deg, #0f172a 0%, #1e1b4b 50%, #2e1065 100%);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#image {
+    max-width: 230px;
+}
+
+#navbarContainer {
+    padding-top: 10px;
+}
+
+#navBar {
+    border-top: 2px solid #C5A059;
+    border-bottom: 2px solid #C5A059;
+    border-right: 2px solid #C5A059;
+    border-left: 2px solid #C5A059;
+    border-radius: 10px;
+    background-color: #0f172aff;
+
+    position: fixed;
+    top: 0;
+    width: 98.1%;
+    z-index: 1000;
+}
+
+/*three buttons of navbar*/
+#home {
+    font-weight: bold;
+    color: #C5A059;
+    border-top: 1px solid #C5A059;
+    border-bottom: 1px solid #C5A059;
+    border-right: 1px solid #C5A059;
+    border-left: 1px solid #C5A059;
+    border-radius: 10px;
+}
+
+#discover {
+    font-weight: bold;
+    color: #C5A059;
+    border-top: 1px solid #C5A059;
+    border-bottom: 1px solid #C5A059;
+    border-right: 1px solid #C5A059;
+    border-left: 1px solid #C5A059;
+    border-radius: 10px;
+}
+
+#contact {
+    font-weight: bold;
+    color: #C5A059;
+    border-top: 1px solid #C5A059;
+    border-bottom: 1px solid #C5A059;
+    border-right: 1px solid #C5A059;
+    border-left: 1px solid #C5A059;
+    border-radius: 10px;
+}
+
+#threeButtons {
+    display: flex;
+    gap: 15px;
+}
+
+#home:hover {
+    background-color: burlywood;
+    color: white;
+    transition: background-color 0.5s;
+
+}
+
+#discover:hover {
+    background-color: burlywood;
+    color: white;
+    transition: background-color 0.5s;
+
+}
+
+#contact:hover {
+    background-color: burlywood;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---------------------*/
+
+
+#icon {
+    color: #C5A059;
+}
+
+#theIcon {
+    border-color: #C5A059;
+}
+
+#homeOption {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f172a80;
+    background-attachment: fixed;
+    color: #C5A059;
+    border-top: 1px solid #C5A059;
+    border-bottom: 1px solid #C5A059;
+    border-right: 1px solid #C5A059;
+    border-left: 1px solid #C5A059;
+    border-radius: 10px;
+    margin-top: 5%;
+    height: 350px;
+
+}
+
+#welcomeMessage {
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#about {
+    font-size: medium;
+    padding: 3%;
+    line-height: 1.7;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#whatIS {
+    display: flex;
+    justify-content: center;
+    color: #C5A059;
+    font-size: x-large;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#note {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+#Answer {
+    text-align: center;
+    padding-top: 5px;
+    color: antiquewhite;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#atten {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#theNotes {
+    padding-left: 5px;
+    color: antiquewhite;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#AL {
+    font-weight: bold;
+}
+
+#presen {
+    font-size: 75px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: #C5A059;
+}
+
+/*----------------------------------------------------------Countries----------------------*/
+#allCountries {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin-left: 4%;
+}
+
+#row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+#row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5%;
+
+}
+
+#row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+#row4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    width: 85%;
+    margin-left: 7%;
+}
+
+
+/*egypt*/
+
+#egypt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#egPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#egypt:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*-----*/
+
+/*ksa*/
+
+#saudi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#saudiPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#saudi:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*palest*/
+
+#palestine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#palestinePhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#palestine:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*syr*/
+
+#syria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#syriaPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#syria:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*tun*/
+
+#tunisia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#tunisiaPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#tunisia:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*uae*/
+
+#emirates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#emiratesPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#emirates:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Iraq*/
+
+#Iraq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#IraqPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Iraq:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*-----*/
+
+/*kwt*/
+
+#Kuwait {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#KuwaitPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Kuwait:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Libya*/
+
+#Libya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#LibyaPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Libya:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Libanon*/
+
+#Libanon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#LibanonPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Libanon:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Bahrain*/
+
+#Bahrain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#BahrainPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Bahrain:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*uae*/
+
+#Moroco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#MorocoPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Moroco:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Comoros*/
+
+#Comoros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#ComorosPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Comoros:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*-----*/
+
+/*Algeria*/
+
+#Algeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#AlgeriaPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Algeria:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Oman*/
+
+#Oman {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#OmanPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Oman:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Qatar*/
+
+#Qatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#QatarPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Qatar:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Sudan*/
+
+#Sudan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#SudanPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Sudan:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Yemen*/
+
+#Yemen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#YemenPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Yemen:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+
+/*Mauritania*/
+
+#Mauritania {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#MauritaniaPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Mauritania:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Jordan*/
+
+#Jordan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#JordanPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Jordan:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Djibouti*/
+
+#Djibouti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#DjiboutiPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Djibouti:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+/*Somalia*/
+
+#Somalia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #0f172a80;
+}
+
+#SomaliaPhoto {
+    width: 75px;
+    padding-bottom: 8%;
+}
+
+#Somalia:hover {
+    background-color: #C5A059E6;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+/*---*/
+
+
+#printCountries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#displayContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #C5A059;
+    border-color: #C5A059;
+    border-radius: 30px;
+    color: white;
+    width: 40%;
+    margin-top: 3%;
+    padding: 2%;
+    padding-bottom: 0%;
+    background-color: #0f172a80;
+
+}
+
+#img {
+    width: 100%;
+    border-radius: 30px;
+    height: auto;
+}
+
+#name {
+    color: #C5A059;
+    padding: 2%;
+    font-size: xx-large;
+
+}
+
+#textName {
+    color: antiquewhite;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5%;
+    font-size: x-large;
+    text-align: center;
+}
+
+#history {
+    color: #C5A059;
+    padding: 2%;
+    font-size: large;
+}
+
+#textHistory {
+    color: antiquewhite;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5%;
+    font-size: medium;
+    display: flex;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#location {
+    color: #C5A059;
+    padding: 2%;
+    font-size: medium;
+    margin-right: 1%;
+}
+
+#textLocation {
+    color: antiquewhite;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5%;
+    font-size: small;
+    margin-right: 2%;
+    text-align: center;
+}
+
+#contactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    border-top: 1px solid #C5A059;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+#contactText {
+    color: #C5A059;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin-right: 0.5%;
+}
+
+#threeIcons {
+    padding-top: 1.5%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0.3%;
+
+}
+
+#facebook {
+    margin-right: 1.5%;
+}
+
+#linkedin {
+    margin-left: 1.5%;
+}
+
+#fbIcon:hover {
+    fill: #C5A059;
+    transition: fill 0.2s;
+}
+
+#instaIcon:hover {
+    fill: #C5A059;
+    transition: fill 0.2s;
+}
+
+#linIcon:hover {
+    fill: #C5A059;
+    transition: fill 0.2s;
+}
+
+#flagANDname {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C5A059;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #0f172a80;
+}
+
+#CountryName {
+    color: #C5A059;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-right: 0.9%;
+}
+
+#Flag {
+    width: 50%;
+}
+
+#Landmarks {
+    color: #C5A059;
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+#twentySix {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5%;
+    margin-right: 0.5%;
+}
+
+#year {
+    color: white;
+    margin-left: 0.3%;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+@media(max-width:992px) {
+
+    #Landmarks {
+        color: #C5A059;
+        font-size: 30px;
+        margin-top: 13%;
+
+    }
+
+    #flagANDname {
+        width: 40%;
+    }
+
+    #CountryName {
+        font-size: 20px;
+    }
+
+
+    #threeButtons {
+        padding-top: 5%;
+    }
+
+    #home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #discover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #homeOption {
+        margin-top: 15%;
+        height: auto;
+        padding-bottom: 5%;
+    }
+
+    #welcomeMessage {
+        font-weight: bold;
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        margin-right: 1%;
+    }
+
+    #whatIS {
+        font-size: large;
+        margin-right: 1.5%;
+    }
+
+    #Answer {
+        font-size: medium;
+        text-align: center;
+    }
+
+    #note {
+        font-size: smaller;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 7%;
+        margin-top: 1%;
+
+    }
+
+    #atten {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #theNotes {
+        padding-top: 2%;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    #about {
+        margin-top: 4%;
+    }
+
+    #navBar {
+        max-width: 95%;
+    }
+
+    #presen {
+        font-size: 40px;
+    }
+
+    #allCountries {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #row1 {
+        flex-direction: column;
+        width: 49%;
+    }
+
+    #row2 {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    #row3 {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    #row4 {
+        flex-direction: column;
+        width: 50%;
+        margin-right: 7%;
+    }
+
+    #Somalia {
+        margin-top: 10%;
+    }
+
+    #Djibouti {
+        margin-top: 10%;
+    }
+
+    #Jordan {
+        margin-top: 10%;
+    }
+
+    #egypt {
+        margin-top: 10%;
+    }
+
+    #saudi {
+        margin-top: 10%;
+    }
+
+    #palestine {
+        margin-top: 10%;
+    }
+
+    #syria {
+        margin-top: 10%;
+    }
+
+    #tunisia {
+        margin-top: 10%;
+    }
+
+    #emirates {
+        margin-top: 10%;
+    }
+
+    #Iraq {
+        margin-top: 10%;
+    }
+
+    #Kuwait {
+        margin-top: 10%;
+    }
+
+    #Libya {
+        margin-top: 10%;
+    }
+
+    #Libanon {
+        margin-top: 10%;
+    }
+
+    #Bahrain {
+        margin-top: 10%;
+    }
+
+    #Moroco {
+        margin-top: 10%;
+    }
+
+    #Comoros {
+        margin-top: 10%;
+    }
+
+    #Algeria {
+        margin-top: 10%;
+    }
+
+    #Oman {
+        margin-top: 10%;
+    }
+
+    #Qatar {
+        margin-top: 10%;
+    }
+
+    #Sudan {
+        margin-top: 10%;
+    }
+
+    #Yemen {
+        margin-top: 10%;
+    }
+
+    #Mauritania {
+        margin-top: 10%;
+    }
+
+    #displayContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #C5A059;
+        border-color: #C5A059;
+        border-radius: 30px;
+        color: white;
+        width: 75%;
+        height: auto;
+        margin-top: 5%;
+        padding: 2%;
+        background-color: #0f172a80;
+
+    }
+
+    #img {
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    #name {
+        color: #C5A059;
+        padding: 2%;
+        font-size: x-large;
+
+    }
+
+    #textName {
+        color: antiquewhite;
+        font-family: "Inter", sans-serif;
+        padding-bottom: 5%;
+        font-size: large;
+    }
+
+    #history {
+        color: #C5A059;
+        padding: 2%;
+        font-size: large;
+    }
+
+    #textHistory {
+        color: antiquewhite;
+        font-family: "Inter", sans-serif;
+        padding-bottom: 5%;
+        font-size: small;
+        display: flex;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    #location {
+        color: #C5A059;
+        padding: 2%;
+        font-size: medium;
+        margin-right: 1%;
+    }
+
+    #textLocation {
+        color: antiquewhite;
+        font-family: "Inter", sans-serif;
+        padding-bottom: 5%;
+        font-size: smaller;
+        margin-right: 2%;
+        text-align: center;
+    }
+
+    #contactMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        border-top: 1px solid #C5A059;
+        margin-top: 8%;
+        margin-bottom: 1%;
+        padding-top: 5%;
+    }
+
+    #contactText {
+        font-size: larger;
+    }
+
+    #threeIcons {
+        padding-top: 4%;
+        padding-bottom: 2%;
+    }
+
+    #facebook {
+        margin-right: 4%;
+    }
+
+    #linkedin {
+        margin-left: 4%;
+    }
+
+
+}
