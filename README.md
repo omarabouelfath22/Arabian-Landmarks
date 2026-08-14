@@ -15,5 +15,5 @@ This is a responsive web page built with HTML, CSS, Bootstrap, and JavaScript. W
 
 ## issues:
 
-As this is the first big project that I have ever made in the world of web development, there will be problems in the written code, and I have known the issues in this code and their fixes from outside sources, but I decided to keep everything as it is, and in the future when i learn a new way to make the code looks clean, i will apply it.
+As this is the first big project I made in my web development journey, there will be problems in the written code, and I have known the issues in this code and their fixes from outside sources, but I decided to keep everything as it is, and in the future, when I learn a new way to make the code look clean, I will apply it.
 
