@@ -139,6 +139,7 @@ table {
     display: flex;
     flex-direction: column;
     padding-top: 60px;
+    height: 100%;
 
 }
 
