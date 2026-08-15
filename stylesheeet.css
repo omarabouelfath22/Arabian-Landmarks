@@ -1471,3 +1471,32 @@ html {
 
 
 }
+@media(max-width:320px) {
+    #welcomeMessage {
+        font-size: larger;
+    }
+
+    #whatIS {
+        font-size: large;
+    }
+
+    #Answer {
+        font-size: small;
+    }
+
+    #saudiText {
+        font-size: small;
+    }
+
+    #presen {
+        font-size: 30px;
+    }
+
+    #theNotes {
+        font-size: smaller;
+    }
+
+    #image {
+        width: 65%;
+    }
+}
